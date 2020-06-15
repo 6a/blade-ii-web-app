@@ -31,3 +31,44 @@ img {
     flex-direction: column;
     height: 100%;
 }
+
+/* DOWNLOAD PAGE */
+
+h2 {
+    margin: 0;
+}
+
+a {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(184, 52, 52);
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+a:hover, a:active {
+    color: rgb(233, 36, 36);
+    font-weight: 700;
+}
+
+.force-mouse-events {
+    pointer-events: all !important;
+    user-select: text !important;
+}
+
+.dl {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    min-height: 100%;
+    background-color: hsl(218, 35%, 13%);
+}
+
+.dl h1 {
+    margin-top: 0;
+}
